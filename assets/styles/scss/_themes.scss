@@ -1,0 +1,8 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+// Keep atleast one file
+@import "themes/egret-indigo";
+
+$background: map-get($egret-theme, background);
+$foreground: map-get($egret-theme, foreground);
